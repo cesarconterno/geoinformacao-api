@@ -1,0 +1,25 @@
+{
+  "name": "geoinfo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -w",
+    "start": "node program.js"
+  },
+  "keywords": [],
+  "author": "Cesar Conterno",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-status": "^1.5.0",
+    "mongoose": "^6.0.12",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97"
+  }
+}
